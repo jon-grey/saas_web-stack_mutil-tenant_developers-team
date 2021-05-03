@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: jon-grey/github-actions-secrets-creator@latest
+      - uses: jon-grey/github-actions-secrets-creator@v1.0
         with:
           name: FRONT_DOOR_PASSWORD
           value: Eternia
