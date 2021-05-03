@@ -3,6 +3,7 @@ name: Any - Push - Docker Compose Test
 on: 
   push:
     paths:
+      - '.github/workflows/push.any.docker-compose.test.app-flask-redis.yml'
       - 'deployments/docker-compose/app-flask-redis/**'
       - 'deployments-setup/**'
       - 'deployments-submit/**'
